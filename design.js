@@ -115,7 +115,7 @@ Cargo.Event.on("slideshow_transition_start", function(el, obj) {
 	Design.resizeSlideshow(el, obj);
 });
 
-Cargo.Event.on("freshbox_destroy_hotkeys", function() {
+Cargo.Event.on("fullscreen_destroy_hotkeys", function() {
 	Design.keybindings();
 });
 

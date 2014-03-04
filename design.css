@@ -606,6 +606,7 @@ blockquote {
 	font-size: 11px;
 	text-align: center;
 	width: 670px;
+	clear: both;
 }
 
 .project_footer span {
