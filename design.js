@@ -129,12 +129,6 @@ Cargo.Event.on("project_load_complete", function(pid) {
 	}
 });
 
-Cargo.Event.on("project_open_complete", function(pid) {
-	if (Cargo.Plugins.hasOwnProperty("columnizer")) {
-		Cargo.Plugins.columnizer.updateTargets();
-	}
-});
-
 Cargo.Event.on("show_index_complete", function(pid) {
 	if (Cargo.Plugins.hasOwnProperty("columnizer")) {
 		Cargo.Plugins.columnizer.updateTargets();
