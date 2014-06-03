@@ -75,7 +75,7 @@ var Design = {
 	},
 
 	 mobileIcons: function() {
-		if (navigator.userAgent.match(/i(Phone|Pod|Pad)/i)) {
+		if (navigator.userAgent.match(/i(Phone|Pod|Pad)|windows/gi)) {
 			$(".goto.prev").text("▲");
 			$(".goto.next").text("▼");
 			$(".project_nav .previous").text("◀");
